@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pertama</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/icons/partner.png" alt="logo" class="logo-img"/>
+            <h1 class="logo title">TEGAR X</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jasa">Jasa</a></li>
+                <li><a href="mailto:tegar.prakasa456@gmail.com">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirsosmed()">Follow Me</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello, Nama saya Muhammad Tegar Prakasa!</p>
+            <p class="description">Tukang Joki bensin</p>
+            <img src="assets/foto/fotomerah.jpg" alt="tegar foto 1" class="img-foto"/>
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="tentang">
+            <p class="title">Saya adalah penjoki handal</p>
+            <p class="description">Jagonya kapan kapan</p>
+            <div class="kerjasama">
+                <button class="btn-cta" onclick="redirwa()">Mari Kerjasama</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="wrapper" id="jasa">
+                <div class="card">
+                    <div class="card-item">
+                        <img src="assets/icons/24-hours.png" alt="icon 1" class="icon"/>
+                        <p class="card-title">Saya suka maen game</p>
+                        <p class="card-description">Jagonya kapan kapan</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/icons/best-price.png" alt="icon 2" class="icon"/>
+                        <p class="card-title">Saya suka maen game</p>
+                        <p class="card-description">Jagonya kapan kapan</p>
+                    </div>
+                    <div class="card-item">
+                        <img src="assets/icons/rating.png" alt="icon 2" class="icon"/>
+                        <p class="card-title">Saya suka maen game</p>
+                        <p class="card-description">Jagonya kapan kapan</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy; Muhammad Tegar Prakasa 2022</p>
+    </footer>
+
+    <script>
+        function redirsosmed() {
+            window.location.href = "https://web.facebook.com/mtegarprakasa/"
+        }
+
+        function redirwa() {
+            window.location.href = "https://wa.me/+6287879649447"
+        }
+    </script>
+</body>
+</html>
